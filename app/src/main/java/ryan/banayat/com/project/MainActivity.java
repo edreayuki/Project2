@@ -14,7 +14,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void screen2(View v){
-        Intent i = new Intent(this, act2.class);
+        Intent i = new Intent(this, Lrt1Code.class);
+        startActivity(i);
+    }
+    public void screen3(View v){
+        Intent i = new Intent(this, Lrt2Code.class);
+        startActivity(i);
+    }
+    public void screen4(View v){
+        Intent i = new Intent(this, MrtCode.class);
         startActivity(i);
     }
 }
