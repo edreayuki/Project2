@@ -9,7 +9,7 @@
     <string name="R1">Route: North Avenue - Taft</string>
     <string name="R2">Route: Santolan - Recto</string>
     <string name="R3">Route: Roosevelt - Baclaran</string>
-    <string name="R4">Route: Santolan - Recto</string>
+    <string name="R4">Route: Caloocan - Calamba</string>
 
     <string name="North_Avenue">North Avenue</string>
     <string name="Quezon_Avenue">Quezon Avenue</string>
@@ -31,7 +31,7 @@
     <string name="AranetaCenter_Cubao">Araneta Center - Cubao</string>
     <string name="Betty_Go_Belmonte">Betty Go-Belmonte</string>
     <string name="Gilmore">Gilmore</string>
-    <string name="J_Ruiz">J_Ruiz</string>
+    <string name="J_Ruiz">J. Ruiz</string>
     <string name="V_Mapa">V. Mapa</string>
     <string name="Pureza">Pureza</string>
     <string name="Legarda">Legarda</string>
@@ -41,6 +41,7 @@
     <string name="Balintawak">Balintawak</string>
     <string name="Monumento">Monumento</string>
     <string name="fifth_Avenue">5th Avenue</string>
+    <string name="R_Papa">R. Papa</string>
     <string name="Abad_Santos">Abad Santos</string>
     <string name="Blumentritt">Blumentritt</string>
     <string name="Tayuman">Tayuman</string>
