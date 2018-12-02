@@ -84,6 +84,7 @@ public class Lrt2Code extends AppCompatActivity {
                 break;
         }
         Station selected = new Station (station);
+        Log.d("ICS115", "content of station bean is " + selected.getStation());
     }
 
 //    public void lrt2_screen(View v){

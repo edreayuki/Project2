@@ -154,6 +154,7 @@ public class Lrt1Code extends AppCompatActivity {
                 break;
         }
         Station selected = new Station (station);
+        Log.d("ICS115", "content of station bean is " + selected.getStation());
     }
 
 

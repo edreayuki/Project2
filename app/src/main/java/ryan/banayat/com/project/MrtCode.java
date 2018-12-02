@@ -120,7 +120,8 @@ public class MrtCode extends AppCompatActivity {
                 Log.d("ICS115", "selected station is " + station);
                 break;
         }
-        Station selected = new Station(station);
+        Station selected = new Station (station);
+        Log.d("ICS115", "content of station bean is " + selected.getStation());
     }
 
 

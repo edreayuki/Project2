@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void pnr_screen(View v){
         Intent i = new Intent(this, PnrCode.class);
         startActivity(i);
+        Log.d("ICS115", "Main Activity PNR successful");
     }
 
 }
