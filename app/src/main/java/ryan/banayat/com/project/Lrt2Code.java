@@ -83,6 +83,7 @@ public class Lrt2Code extends AppCompatActivity {
                 Log.d("ICS115", "selected station is " + station);
                 break;
         }
+        Station selected = new Station (station);
     }
 
 //    public void lrt2_screen(View v){

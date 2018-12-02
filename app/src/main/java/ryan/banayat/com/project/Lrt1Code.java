@@ -34,13 +34,13 @@ public class Lrt1Code extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.img1: station = getString(R.string.Roosevelt);
                 Log.d("ICS115", "selected station is " + station);
-            break;
+                break;
             case R.id.txt1: station =  getString(R.string.Roosevelt);
                 Log.d("ICS115", "selected station is " + station);
-            break;
+                break;
             case R.id.txt2: station =  getString(R.string.Balintawak);
                 Log.d("ICS115", "selected station is " + station);
-            break;
+                break;
             case R.id.img2: station =  getString(R.string.Balintawak);
                 Log.d("ICS115", "selected station is " + station);
                 break;
@@ -153,6 +153,7 @@ public class Lrt1Code extends AppCompatActivity {
                 Log.d("ICS115", "selected station is " + station);
                 break;
         }
+        Station selected = new Station (station);
     }
 
 

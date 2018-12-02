@@ -12,6 +12,7 @@ public class PnrCode extends AppCompatActivity {
         setContentView(R.layout.stations_pnr);
     }
 
+
 //    public void pnr_screen(View v){
 //        Intent i = new Intent(this, MainActivity.class);
 //        startActivity(i);
