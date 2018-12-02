@@ -39,7 +39,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/lrt2"
-                    android:onClick="pnr_screen">
+                    android:onClick="mrt3_screen">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                     android:layout_marginRight="8dp"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:onClick="mrt3_screen"
+                    android:onClick="pnr_screen"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/mrt">

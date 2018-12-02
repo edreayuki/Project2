@@ -22,7 +22,7 @@
         <activity android:name=".MrtCode" />
         <activity android:name=".Lrt1Code" />
         <activity android:name=".Lrt2Code" />
-
+        <activity android:name=".PnrCode"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyB_cp1hjwXjm-h9mDf5uACKQDEyxhBVaBM" />

@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("ICS115", "Main Activity MRT3 successful");
     }
     public void pnr_screen(View v){
-        Intent i = new Intent(this, MrtCode.class);
+        Intent i = new Intent(this, PnrCode.class);
         startActivity(i);
     }
 
