@@ -157,6 +157,21 @@ public class Lrt1Code extends AppCompatActivity {
         Log.d("ICS115", "content of station bean is " + selected.getStation());
     }
 
+    /*
+    A Nearby Search request is an HTTP URL of the following form:
+    * https://maps.googleapis.com/maps/api/place/nearbysearch/output?parameters
+    * where output may be either of the following values:
+        json (recommended) indicates output in JavaScript Object Notation (JSON)
+        xml indicates output as XML
+      Certain parameters are required to initiate a Nearby Search request. As is standard in URLs, all parameters are separated using the ampersand (&) character.
+    * Required parameters
+        key — Your application's API key. This key identifies your application. See Get a key for more information.
+        location — The latitude/longitude around which to retrieve place information. This must be specified as latitude,longitude.
+        radius — Defines the distance (in meters) within which to return place results. The maximum allowed radius is 50 000 meters. Note that radius must not be included if rankby=distance (described under Optional parameters below) is specified.
+            If rankby=distance (described under Optional parameters below) is specified, then one or more of keyword, name, or type is required.
+    * https://developers.google.com/places/web-service/search#PlaceSearchRequests for more info
+    * */
+
 
 //    public void lrt1_screen(View v){
 //        Intent i = new Intent(this, MainActivity.class);
