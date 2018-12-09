@@ -4,10 +4,22 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 
 public class MrtCode extends AppCompatActivity {
     String station;
+
+    // ADD ARROW BACK BUTTON
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    // END ARROW BACK BUTTON
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,114 +37,144 @@ public class MrtCode extends AppCompatActivity {
         // Construct a GeoDataClient.
     }
     public void onClick (View v) {
+        Intent i = new Intent(MrtCode.this, EstablishmentsList.class);
+
         switch (v.getId()) {
             case R.id.img1:
-                station = getString(R.string.North_Avenue);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.txt1:
-                station = getString(R.string.North_Avenue);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Roosevelt");
+                i.putExtra("latitude", "14.6576");
+                i.putExtra("longitude", "121.0211");
                 break;
+
             case R.id.txt2:
-                station = getString(R.string.Quezon_Avenue);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img2:
-                station = getString(R.string.Quezon_Avenue);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Balintawak");
+                i.putExtra("latitude", "14.6574");
+                i.putExtra("longitude", "121.0032");
                 break;
+
+
             case R.id.txt3:
-                station = getString(R.string.GMA_Kamuning);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img3:
-                station = getString(R.string.GMA_Kamuning);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Monumento");
+                i.putExtra("latitude", "14.6547");
+                i.putExtra("longitude", "120.9834");
                 break;
+
             case R.id.txt4:
-                station = getString(R.string.Araneta_Cubao);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img4:
-                station = getString(R.string.Araneta_Cubao);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "5th Avenue");
+                i.putExtra("latitude", "14.6443");
+                i.putExtra("longitude", "120.9830");
                 break;
             case R.id.txt5:
-                station = getString(R.string.Santolan_Annapolis);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img5:
-                station = getString(R.string.Santolan_Annapolis);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "R. Papa");
+                i.putExtra("latitude", "14.6360");
+                i.putExtra("longitude", "120.9819");
                 break;
+
             case R.id.txt6:
-                station = getString(R.string.Ortigas);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img6:
-                station = getString(R.string.Ortigas);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Abad Santos");
+                i.putExtra("latitude", "14.6309");
+                i.putExtra("longitude", "120.9809");
                 break;
+
             case R.id.txt7:
-                station = getString(R.string.Shaw_Boulevard);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img7:
-                station = getString(R.string.Shaw_Boulevard);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Blumentritt");
+                i.putExtra("latitude", "14.6225");
+                i.putExtra("longitude", "120.9828");
                 break;
             case R.id.txt8:
-                station = getString(R.string.Boni_Avenue);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img8:
-                station = getString(R.string.Boni_Avenue);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Tayuman");
+                i.putExtra("latitude", "14.6169");
+                i.putExtra("longitude", "120.9829");
                 break;
             case R.id.txt9:
-                station = getString(R.string.Guadalupe);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img9:
-                station = getString(R.string.Guadalupe);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Bambang");
+                i.putExtra("latitude", "14.6112");
+                i.putExtra("longitude", "120.9821");
                 break;
             case R.id.txt10:
-                station = getString(R.string.Buendia);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img10:
-                station = getString(R.string.Buendia);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt11:
-                station = getString(R.string.Ayala);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Doroteo Jose");
+                i.putExtra("latitude", "14.6057");
+                i.putExtra("longitude", "120.9811");
                 break;
             case R.id.img11:
-                station = getString(R.string.Ayala);
-                Log.d("ICS115", "selected station is " + station);
+            case R.id.txt11:
+                i.putExtra("station_name", "Carriedo");
+                i.putExtra("latitude", "14.5992");
+                i.putExtra("longitude", "120.9811");
                 break;
+
             case R.id.txt12:
-                station = getString(R.string.Magallanes);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img12:
-                station = getString(R.string.Magallanes);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "Central Terminal");
+                i.putExtra("latitude", "14.5931");
+                i.putExtra("longitude", "120.9814");
                 break;
+
+
             case R.id.txt13:
-                station = getString(R.string.Taft);
-                Log.d("ICS115", "selected station is " + station);
-                break;
             case R.id.img13:
-                station = getString(R.string.Taft);
-                Log.d("ICS115", "selected station is " + station);
+                i.putExtra("station_name", "United Nations");
+                i.putExtra("latitude", "14.5832");
+                i.putExtra("longitude", "120.9834");
+                break;
+
+            case R.id.txt14:
+            case R.id.img14:
+                i.putExtra("station_name", "Pedro Gil");
+                i.putExtra("latitude", "14.5763");
+                i.putExtra("longitude", "120.9881");
+                break;
+            case R.id.txt15:
+            case R.id.img15:
+                i.putExtra("station_name", "Quirino");
+                i.putExtra("latitude", "14.5699");
+                i.putExtra("longitude", "120.9915");
+                break;
+
+            case R.id.txt16:
+            case R.id.img16:
+                i.putExtra("station_name", "Vito Cruz");
+                i.putExtra("latitude", "14.5633");
+                i.putExtra("longitude", "120.9946");
+                break;
+
+            case R.id.txt17:
+            case R.id.img17:
+                i.putExtra("station_name", "Gil Puyat");
+                i.putExtra("latitude", "14.5542");
+                i.putExtra("longitude", "120.9965");
+                break;
+            case R.id.txt18:
+            case R.id.img18:
+                i.putExtra("station_name", "Libertad");
+                i.putExtra("latitude", "14.5542");
+                i.putExtra("longitude", "120.9965");
+                break;
+            case R.id.txt19:
+            case R.id.img19:
+                i.putExtra("station_name", "EDSA");
+                i.putExtra("latitude", "14.5384");
+                i.putExtra("longitude", "121.0004");
+                break;
+            case R.id.txt20:
+            case R.id.img20:
+                i.putExtra("station_name", "Baclaran");
+                i.putExtra("latitude", "14.5342");
+                i.putExtra("longitude", "120.9981");
                 break;
         }
-        Station selected = new Station (station);
-        Log.d("ICS115", "content of station bean is " + selected.getStation());
+
+        startActivity(i);
     }
 
 
