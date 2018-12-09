@@ -12,22 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MrtCode" />
-        <activity android:name=".Lrt1Code" />
-        <activity android:name=".Lrt2Code" />
-        <activity android:name=".PnrCode"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyB_cp1hjwXjm-h9mDf5uACKQDEyxhBVaBM" />
 
-        <activity android:name=".Display"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MrtCode" />
+        <activity
+            android:name=".Lrt1Code"
+            android:label="Stations">
+        </activity>
+        <activity android:name=".Lrt2Code" />
+        <activity android:name=".PnrCode" />
+
+        <activity android:name=".Display" />
+        <activity
+            android:name=".EstablishmentsList"
+            android:label="Establishments">
+        </activity>
     </application>
 
 </manifest>

@@ -12,6 +12,17 @@ public class MrtCode extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stations_mrt);
+
+        // ADD ARROW BACK BUTTON
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+        // END ARROW BACK BUTTON
+
+
+        Log.d("ICS115", "LRT 1 onCreate successful");
+        // Construct a GeoDataClient.
     }
     public void onClick (View v) {
         switch (v.getId()) {

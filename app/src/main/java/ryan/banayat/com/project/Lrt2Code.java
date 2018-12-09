@@ -12,79 +12,55 @@ public class Lrt2Code extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stations_lrt2);
+
+        // ADD ARROW BACK BUTTON
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+        // END ARROW BACK BUTTON
+
+
+        Log.d("ICS115", "LRT 1 onCreate successful");
+        // Construct a GeoDataClient.
     }
 
     public void onClick (View v) {
+        Intent i = new Intent(Lrt2Code.this, EstablishmentsList.class);
+
         switch (v.getId()) {
-            case R.id.img1: station = getString(R.string.Santolan);
-                Log.d("ICS115", "selected station is " + station);
+            case R.id.img1:
+            case R.id.txt1:
+                i.putExtra("station_name", "Santolan");
+                i.putExtra("latitude", "14.6576");
+                i.putExtra("longitude", "121.0211");
                 break;
-            case R.id.txt1: station =  getString(R.string.Santolan);
-                Log.d("ICS115", "selected station is " + station);
+
+            case R.id.txt2:
+            case R.id.img2:
+                i.putExtra("station_name", "Katipunan");
+                i.putExtra("latitude", "14.6574");
+                i.putExtra("longitude", "121.0032");
                 break;
-            case R.id.txt2: station =  getString(R.string.Katipunan);
-                Log.d("ICS115", "selected station is " + station);
+
+
+            case R.id.txt3:
+            case R.id.img3:
+                i.putExtra("station_name", "Anonas");
+                i.putExtra("latitude", "14.6543");
+                i.putExtra("longitude", "120.9838");
                 break;
-            case R.id.img2: station =  getString(R.string.Katipunan);
-                Log.d("ICS115", "selected station is " + station);
+
+            case R.id.txt4:
+            case R.id.img4:
+                i.putExtra("station_name", "Araneta Center-Cubao");
+                i.putExtra("latitude", "14.6543");
+                i.putExtra("longitude", "120.9838");
                 break;
-            case R.id.txt3: station =  getString(R.string.Anonas);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img3: station =  getString(R.string.Anonas);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt4: station =  getString(R.string.AranetaCenter_Cubao);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img4: station =  getString(R.string.AranetaCenter_Cubao);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt5: station =  getString(R.string.Betty_Go_Belmonte);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img5: station =  getString(R.string.Betty_Go_Belmonte);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt6: station =  getString(R.string.Gilmore);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img6: station =  getString(R.string.Gilmore);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt7: station =  getString(R.string.J_Ruiz);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img7: station =  getString(R.string.J_Ruiz);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt8: station =  getString(R.string.V_Mapa);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img8: station =  getString(R.string.V_Mapa);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt9: station =  getString(R.string.Pureza);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img9: station =  getString(R.string.Pureza);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt10: station =  getString(R.string.Legarda);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img10: station =  getString(R.string.Legarda);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.txt11: station =  getString(R.string.Recto);
-                Log.d("ICS115", "selected station is " + station);
-                break;
-            case R.id.img11: station =  getString(R.string.Recto);
-                Log.d("ICS115", "selected station is " + station);
-                break;
+
         }
-        Station selected = new Station (station);
-        Log.d("ICS115", "content of station bean is " + selected.getStation());
+
+        startActivity(i);
     }
 
 //    public void lrt2_screen(View v){
