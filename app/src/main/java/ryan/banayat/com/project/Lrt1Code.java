@@ -125,54 +125,54 @@ public class Lrt1Code extends AppCompatActivity {
 
             case R.id.txt13:
             case R.id.img13:
-                i.putExtra("station_name", "Monumento");
-                i.putExtra("latitude", "14.6547");
+                i.putExtra("station_name", "United Nations");
+                i.putExtra("latitude", "14.5832");
                 i.putExtra("longitude", "120.9834");
                 break;
 
             case R.id.txt14:
             case R.id.img14:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Pedro Gil");
+                i.putExtra("latitude", "14.5763");
+                i.putExtra("longitude", "120.9881");
                 break;
             case R.id.txt15:
             case R.id.img15:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Quirino");
+                i.putExtra("latitude", "14.5699");
+                i.putExtra("longitude", "120.9915");
                 break;
 
             case R.id.txt16:
             case R.id.img16:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Vito Cruz");
+                i.putExtra("latitude", "14.5633");
+                i.putExtra("longitude", "120.9946");
                 break;
 
             case R.id.txt17:
             case R.id.img17:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Gil Puyat");
+                i.putExtra("latitude", "14.5542");
+                i.putExtra("longitude", "120.9965");
                 break;
             case R.id.txt18:
             case R.id.img18:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Libertad");
+                i.putExtra("latitude", "14.5542");
+                i.putExtra("longitude", "120.9965");
                 break;
             case R.id.txt19:
             case R.id.img19:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "EDSA");
+                i.putExtra("latitude", "14.5384");
+                i.putExtra("longitude", "121.0004");
                 break;
             case R.id.txt20:
             case R.id.img20:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Baclaran");
+                i.putExtra("latitude", "14.5342");
+                i.putExtra("longitude", "120.9981");
                 break;
         }
 
