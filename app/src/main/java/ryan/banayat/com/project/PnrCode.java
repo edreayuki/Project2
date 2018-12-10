@@ -32,7 +32,7 @@ public class PnrCode extends AppCompatActivity {
         // END ARROW BACK BUTTON
 
 
-        Log.d("ICS115", "LRT 1 onCreate successful");
+        Log.d("ICS115", "PNR onCreate successful");
         // Construct a GeoDataClient.
     }
 
@@ -42,135 +42,173 @@ public class PnrCode extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.img1:
             case R.id.txt1:
-                i.putExtra("station_name", "Roosevelt");
-                i.putExtra("latitude", "14.6576");
-                i.putExtra("longitude", "121.0211");
+                i.putExtra("station_name", "Tutuban");
+                i.putExtra("latitude", "14.6111903");
+                i.putExtra("longitude", "120.973033");
                 break;
 
             case R.id.txt2:
             case R.id.img2:
-                i.putExtra("station_name", "Balintawak");
-                i.putExtra("latitude", "14.6574");
-                i.putExtra("longitude", "121.0032");
+                i.putExtra("station_name", "Laong Laan");
+                i.putExtra("latitude", "14.6168068");
+                i.putExtra("longitude", "120.9904364");
                 break;
-
 
             case R.id.txt3:
             case R.id.img3:
-                i.putExtra("station_name", "Monumento");
-                i.putExtra("latitude", "14.6547");
-                i.putExtra("longitude", "120.9834");
+                i.putExtra("station_name", "España");
+                i.putExtra("latitude", "14.6123268");
+                i.putExtra("longitude", "120.9947261");
                 break;
-
             case R.id.txt4:
             case R.id.img4:
-                i.putExtra("station_name", "5th Avenue");
-                i.putExtra("latitude", "14.6443");
-                i.putExtra("longitude", "120.9830");
+                i.putExtra("station_name", "Sta. Mesa");
+                i.putExtra("latitude", "14.6008906");
+                i.putExtra("longitude", "121.008141");
                 break;
+
             case R.id.txt5:
             case R.id.img5:
-                i.putExtra("station_name", "R. Papa");
-                i.putExtra("latitude", "14.6360");
-                i.putExtra("longitude", "120.9819");
+                i.putExtra("station_name", "Pandacan");
+                i.putExtra("latitude", "14.5902722");
+                i.putExtra("longitude", "121.0066127");
                 break;
 
             case R.id.txt6:
             case R.id.img6:
-                i.putExtra("station_name", "Abad Santos");
-                i.putExtra("latitude", "14.6309");
-                i.putExtra("longitude", "120.9809");
+                i.putExtra("station_name", "Paco");
+                i.putExtra("latitude", "14.5792828");
+                i.putExtra("longitude", "120.9972622");
                 break;
-
             case R.id.txt7:
             case R.id.img7:
-                i.putExtra("station_name", "Blumentritt");
-                i.putExtra("latitude", "14.6225");
-                i.putExtra("longitude", "120.9828");
+                i.putExtra("station_name", "San Andres");
+                i.putExtra("latitude", "14.5792826");
+                i.putExtra("longitude", "120.9906961");
                 break;
             case R.id.txt8:
             case R.id.img8:
-                i.putExtra("station_name", "Tayuman");
-                i.putExtra("latitude", "14.6169");
-                i.putExtra("longitude", "120.9829");
+                i.putExtra("station_name", "Vito Cruz");
+                i.putExtra("latitude", "14.5652939");
+                i.putExtra("longitude", "120.99664");
                 break;
             case R.id.txt9:
             case R.id.img9:
-                i.putExtra("station_name", "Bambang");
-                i.putExtra("latitude", "14.6112");
-                i.putExtra("longitude", "120.9821");
+                i.putExtra("station_name", "Buendia");
+                i.putExtra("latitude", "14.5571806");
+                i.putExtra("longitude", "121.0069143");
                 break;
-            case R.id.txt10:
             case R.id.img10:
-                i.putExtra("station_name", "Doroteo Jose");
-                i.putExtra("latitude", "14.6057");
-                i.putExtra("longitude", "120.9811");
+            case R.id.txt10:
+                i.putExtra("station_name", "Pasay Road");
+                i.putExtra("latitude", "14.5497666");
+                i.putExtra("longitude", "121.0118486");
                 break;
-            case R.id.img11:
+
             case R.id.txt11:
-                i.putExtra("station_name", "Carriedo");
-                i.putExtra("latitude", "14.5992");
-                i.putExtra("longitude", "120.9811");
+            case R.id.img11:
+                i.putExtra("station_name", "EDSA");
+                i.putExtra("latitude", "14.5480234");
+                i.putExtra("longitude", "121.0042194");
                 break;
+
 
             case R.id.txt12:
             case R.id.img12:
-                i.putExtra("station_name", "Central Terminal");
-                i.putExtra("latitude", "14.5931");
-                i.putExtra("longitude", "120.9814");
+                i.putExtra("station_name", "Nichols");
+                i.putExtra("latitude", "14.5234714");
+                i.putExtra("longitude", "121.0240953");
                 break;
-
 
             case R.id.txt13:
             case R.id.img13:
-                i.putExtra("station_name", "United Nations");
-                i.putExtra("latitude", "14.5832");
-                i.putExtra("longitude", "120.9834");
+                i.putExtra("station_name", "FTI");
+                i.putExtra("latitude", "14.5062836");
+                i.putExtra("longitude", "121.0334763");
                 break;
 
             case R.id.txt14:
             case R.id.img14:
-                i.putExtra("station_name", "Pedro Gil");
-                i.putExtra("latitude", "14.5763");
-                i.putExtra("longitude", "120.9881");
+                i.putExtra("station_name", "Bicutan");
+                i.putExtra("latitude", "14.4880728");
+                i.putExtra("longitude", "121.0433051");
                 break;
+
             case R.id.txt15:
             case R.id.img15:
-                i.putExtra("station_name", "Quirino");
-                i.putExtra("latitude", "14.5699");
-                i.putExtra("longitude", "120.9915");
+                i.putExtra("station_name", "Sucat");
+                i.putExtra("latitude", "14.4523253");
+                i.putExtra("longitude", "121.0486983");
                 break;
 
             case R.id.txt16:
             case R.id.img16:
-                i.putExtra("station_name", "Vito Cruz");
-                i.putExtra("latitude", "14.5633");
-                i.putExtra("longitude", "120.9946");
+                i.putExtra("station_name", "Alabang");
+                i.putExtra("latitude", "14.4170961");
+                i.putExtra("longitude", "121.0454284");
                 break;
 
             case R.id.txt17:
             case R.id.img17:
-                i.putExtra("station_name", "Gil Puyat");
-                i.putExtra("latitude", "14.5542");
-                i.putExtra("longitude", "120.9965");
+                i.putExtra("station_name", "Muntinlupa");
+                i.putExtra("latitude", "14.4170954");
+                i.putExtra("longitude", "121.0301075");
                 break;
+
             case R.id.txt18:
             case R.id.img18:
-                i.putExtra("station_name", "Libertad");
-                i.putExtra("latitude", "14.5542");
-                i.putExtra("longitude", "120.9965");
+                i.putExtra("station_name", "San Pedro");
+                i.putExtra("latitude", "14.3631536");
+                i.putExtra("longitude", "121.0528097");
                 break;
+
             case R.id.txt19:
             case R.id.img19:
-                i.putExtra("station_name", "EDSA");
-                i.putExtra("latitude", "14.5384");
-                i.putExtra("longitude", "121.0004");
+                i.putExtra("station_name", "Pacita Main Gate");
+                i.putExtra("latitude", "14.3469674");
+                i.putExtra("longitude", "121.0614685");
                 break;
+
             case R.id.txt20:
             case R.id.img20:
-                i.putExtra("station_name", "Baclaran");
-                i.putExtra("latitude", "14.5342");
-                i.putExtra("longitude", "120.9981");
+                i.putExtra("station_name", "Golden City 1");
+                i.putExtra("latitude", "14.3367425");
+                i.putExtra("longitude", "121.0728801");
+                break;
+
+            case R.id.txt21:
+            case R.id.img21:
+                i.putExtra("station_name", "Binan");
+                i.putExtra("latitude", "14.3367423");
+                i.putExtra("longitude", "121.066314");
+                break;
+
+            case R.id.txt22:
+            case R.id.img22:
+                i.putExtra("station_name", "Sta. Rosa");
+                i.putExtra("latitude", "14.3060876");
+                i.putExtra("longitude", "121.1075976");
+                break;
+
+            case R.id.txt23:
+            case R.id.img23:
+                i.putExtra("station_name", "Cabuyao");
+                i.putExtra("latitude", "14.2561377");
+                i.putExtra("longitude", "121.1184208");
+                break;
+
+            case R.id.txt24:
+            case R.id.img24:
+                i.putExtra("station_name", "Mamatid");
+                i.putExtra("latitude", "14.2322947");
+                i.putExtra("longitude", "121.1434493");
+                break;
+
+            case R.id.txt25:
+            case R.id.img25:
+                i.putExtra("station_name", "Calamba");
+                i.putExtra("latitude", "14.206981");
+                i.putExtra("longitude", "121.1558837");
                 break;
         }
 

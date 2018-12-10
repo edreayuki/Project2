@@ -6,10 +6,10 @@
     <string name="MRT">MRT Line 3</string>
     <string name="PNR">PNR</string>
 
-    <string name="R1">Route: North Avenue - Taft</string>
+    <string name="R1">Route: Roosevelt - Baclaran</string>
     <string name="R2">Route: Santolan - Recto</string>
-    <string name="R3">Route: Roosevelt - Baclaran</string>
-    <string name="R4">Route: Caloocan - Calamba</string>
+    <string name="R3">Route: North Avenue - Taft</string>
+    <string name="R4">Route: Tutuban - Calamba</string>
 
     <string name="North_Avenue">North Avenue</string>
     <string name="Quezon_Avenue">Quezon Avenue</string>
